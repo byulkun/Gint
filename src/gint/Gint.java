@@ -10,9 +10,9 @@ public class Gint {
     public static void main(String[] arg) {
         boolean state = true;
         Member member = new Member();
+        ManagementSupportTeam managementSupportTeam = new ManagementSupportTeam();
 
         System.out.println("직원 및 팀 목록을 불러오는 중입니다. 잠깐만 기다려주세요.");
-        ManagementSupportTeam managementSupportTeam = new ManagementSupportTeam();
         memberList = managementSupportTeam.setMemberRoster();
 
         while (state) {
